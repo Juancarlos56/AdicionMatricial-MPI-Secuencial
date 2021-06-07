@@ -1,0 +1,56 @@
+--------------------------------10 000 000 000 -----------------------
+1. Secuencial: 
+    real    6m10.662s
+    user    5m52.061s
+    sys     0m18.596s
+2. MPI
+
+Interprete de python bloque realizar esta operacion, matrices demasiado grandes para un procesador
+con memoria compartida
+--------------------------------1 000 000 000 -----------------------
+
+1. Secuencial: 
+    real    0m36.186s
+    user    0m34.078s
+    sys     0m1.869s
+
+2. MPI:
+    real    0m7.265s
+    user    1m42.321s
+    sys     0m8.040s
+
+--------------------------------100 000 000 -----------------------
+
+1. Secuencial: 
+    real    0m3.816s
+    user    0m3.551s
+    sys     0m0.252s
+
+2. MPI:
+    real    0m1.422s
+    user    0m14.532s
+    sys     0m2.491s
+
+--------------------------------10 000 000 -----------------------
+
+1. Secuencial: 
+    real    0m0.566s
+    user    0m0.502s
+    sys     0m0.064s
+
+2. MPI:
+    real    0m0.559s
+    user    0m5.288s
+    sys     0m1.663s
+
+--------------------------------1 000 000 -----------------------
+
+1. Secuencial: 
+    real    0m0.234s
+    user    0m0.207s
+    sys     0m0.028s
+
+2. MPI:
+    real    0m0.498s
+    user    0m4.449s
+    sys     0m1.620s
